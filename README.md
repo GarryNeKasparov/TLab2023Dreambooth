@@ -16,8 +16,9 @@
 ---
 Модель добучалось методом LoRA под генерацию моей кошки.
 <p align="center">
-  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/4181e696-beb2-4e1b-b052-0e46f9715b21" width="300" height="400">
+  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/81dcfdb3-693a-4fae-ac68-b80ed846b574" width="300" height="400">
 </p>
+
 Были обучены несколько версий модели:
 
 1) lr=3e-4, steps=1000 
@@ -35,25 +36,27 @@
 
 Сравнение модели 1 и 2 (во втором случае lora_scale_unet=0.7, но повышение не улучшало результат - модель неправильно рисовала окрас)
 <p align="center">
-  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/5e79e80c-8fd4-4d73-a50a-ee7627d003cd" width="500" height="400">
-  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/a35d94be-43d5-47df-a6b3-14912daec242" width="500" height="400">
+  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/e633bb86-22b1-4386-bab9-c24d4e707175" width="500" height="400">
+  <img src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/9d2e7328-78bc-45e6-b6d4-db815e90145c" width="500" height="400">
 </p>
+
 
 ---
 Сравнение моделей 1, 2 и 3 
 <p align="center">
-  <img alt="model 1" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/e5df9a6c-bc91-40f4-848f-1cb9e176ceff" width="320" height="300">
-  <img alt="model 2" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/549f5920-7aec-4c2c-b41a-7a87923914ad" width="320" height="300">
-  <img alt="model 3" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/4badd18d-f823-433a-8b9a-5495662aca8d" width="320" height="300">
+  <img alt="model 1" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/1b78fbeb-338a-479c-859f-4561ec0a84d2" width="320" height="300">
+  <img alt="model 2" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/6702d3ac-db62-4741-bc5e-ed167b8daf33" width="320" height="300">
+  <img alt="model 3" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/af79688f-411e-4567-9697-b4bac0d33183" width="320" height="300">
 </p>
 
 ---
 Модель 3 также справилась с переносом стиля
 <p align="center">
-  <img alt="low scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/90bdd3ec-0fdd-4dc0-bcae-5fc2c1cd8adf" width="320" height="300">
-  <img alt="high scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/bef19426-77a8-455f-a890-31339139d36d" width="320" height="300">
-  <img alt="optimal scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/4fe89248-f14a-4960-b0ac-f6f8d148c27c" width="320" height="300">
+  <img alt="low scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/b3b234e6-4a2e-4ea5-b049-a7306ab97ee5" width="320" height="300">
+  <img alt="high scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/508a6266-5302-4763-be9f-c7a60cbc5d92" width="320" height="300">
+  <img alt="optimal scale" src="https://github.com/GarryNeKasparov/TLab2023Dreambooth/assets/52318064/70ff2d4c-4a06-4836-ab90-5af8629785e4" width="320" height="300">
 </p>
+
 
 ---
 Не получилось произвести скрещивание с другими животным, как это приведено в работе. Модель воспринимала "cross" как крест/перекрёсток и изображала его. Используя синонимы, перефразирование
